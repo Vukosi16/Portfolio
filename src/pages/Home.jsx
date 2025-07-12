@@ -1,34 +1,27 @@
-import { useNavigate } from 'react-router-dom';
 import '../styles/Home.css'
+import GreetingCard from "../components/greetingCard"
+import PageNav from "../components/PageNav"
+import PictureGrid from '../components/PictureGrid'
 
 const Home = () => {
-    const navigate = useNavigate();
-    const btnLinkToContactPage = () => {
-        navigate('/contact');
-    }
+    
 
   return (
     <>
-        <div className='frontpageHero'>
-        <div className="holderDiv">
-            <h1 className='greetingHeader'>Hello I'm</h1>
-            <h1 style={{fontSize: '2.5em'}}>Vukosi Blessing Mohlabini</h1>
-            
-            <div className="titleContainer">
-                <p style={{margin: '10px', fontFamily:'Helvetica'}}>Web Developer, Business Analysts and System Support Technitian</p>
-            </div>
-            
-            <div className="holderDivButton">
-                <a href="./CV.pdf" download>
-                    <button>Download CV</button>
-                </a>
+        <GreetingCard/>
 
-                <button onClick={btnLinkToContactPage}>Let's Connect</button>
+        <div className='frontpageContact'>
+            <div className="leftFrontPageContainer">
+                <p className="herodescText" style={{marginLeft: '20px', fontFamily:'Helvetica'}}>
+                    Hey, I’m Vukosi — a student who loves all things tech. I’m big on sports, always curious about how systems work, and currently exploring my way through the world of IT. Whether it’s coding or kicking a ball, I’m all in. Reach everything you need below:
+                </p>
+                <PageNav/>
+            </div>
+            <div className="rightFrontPageContainer">
+                <PictureGrid/>
             </div>
         </div>
-        </div>
 
-        <div className='frontpageContact'></div>
 
         <div  className='frontpageTechnologies'></div>
    </>

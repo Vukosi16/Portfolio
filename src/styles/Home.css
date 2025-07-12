@@ -1,13 +1,23 @@
 body{
     margin: 0;
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../assets/backgroundPic.jpg');
+    background-size: cover;           
+    background-position: center;     
+    background-repeat: no-repeat;   
+}
+
+h4{
+    padding: 0;
+    margin: 2px;
 }
 
 .frontpageHero{
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: #4c08cc;
-    height: 40vh;
+    height: 60vh;
     color: aliceblue;
 }
 
@@ -16,6 +26,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 60%;
+    height: 60vh;
 }
 
 .greetingHeader{
@@ -38,8 +49,8 @@ body{
 }
 
 button{
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 120px;
     border: 1px solid black;
     border-radius: 5px;
     color: aliceblue;
@@ -56,11 +67,66 @@ button:active{
 }
 
 .frontpageContact{
-    background-color: chocolate;
-    height: 30vh;
+    display: flex;
+    height: 40vh;
 }
 
-.frontpageTechnologies{
-    background-color: red;
-    height: 30vh;
+.leftFrontPageContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.navContainer{
+    display: grid;
+    height: 70%;
+    width: 70%;
+    margin-left: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.navGridItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    background-color: none;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.rightFrontPageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.picturegrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    margin-left: 2px;
 }
