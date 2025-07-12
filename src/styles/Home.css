@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.frontpageHero{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #4c08cc;
+    height: 40vh;
+    color: aliceblue;
+}
+
+.holderDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.greetingHeader{
+    display: block;
+    height: 10%;
+    font-size: 1.6em;
+    font-family: Copperplate;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+}
+
+.holderDivButton{
+    display: flex;
+    gap: 120px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #4c08cc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+button:hover{
+    background-color: #8848ff;
+}
+button:active{
+    background-color: #270f55;
+}
+
+.frontpageContact{
+    background-color: chocolate;
+    height: 30vh;
+}
+
+.frontpageTechnologies{
+    background-color: red;
+    height: 30vh;
+}
