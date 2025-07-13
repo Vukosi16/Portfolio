@@ -1,4 +1,5 @@
 import '../styles/Home.css'
+import PictureGrid from './PictureGrid';
 import { useNavigate } from 'react-router-dom';
 
 const GreetingCard = () => {
@@ -17,7 +18,7 @@ const GreetingCard = () => {
             <h1 style={{fontSize: '3em'}}>Vukosi Blessing Mohlabini</h1>
             
             <div className="titleContainer">
-                <p style={{fontSize: '1.2em', margin: '10px', marginBottom: '40px', fontFamily:'Helvetica'}}>Web Developer, Business Analysts and System Support Technitian</p>
+                <p style={{fontSize: '1.2em', margin: '10px', marginBottom: '40px', fontFamily:'Helvetica', textAlign: 'center'}}>Aspiring Web Developer, Business Analysts and System Support Technitian</p>
             </div>
             
             <div className="holderDivButton">
@@ -28,6 +29,7 @@ const GreetingCard = () => {
                 <button onClick={btnLinkToContactPage}>Let's Connect</button>
             </div>
           </div>
+          <PictureGrid/>
         </div>
 
     </>

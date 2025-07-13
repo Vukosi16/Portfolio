@@ -1,4 +1,4 @@
-import footballPic from '../assets/footballPic.svg'
+import heroImage from '../assets/heroImage.png'
 import '../styles/Home.css'
 
 const PictureGrid = () => {
@@ -6,7 +6,7 @@ const PictureGrid = () => {
     <>
 
       <div className="picturegrid">
-        <img className='image selfPortrait' src={footballPic} alt="Picture of Vukosi" />
+        <img className='image selfPortrait' src={heroImage} alt="Picture of Vukosi" />
 
       </div> 
 

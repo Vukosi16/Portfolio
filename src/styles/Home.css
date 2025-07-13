@@ -8,6 +8,21 @@ body{
     background-repeat: no-repeat;   
 }
 
+.mainPageContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.topNavHome{
+    width: 100vw;
+    height: 10vh;
+    background-color: aliceblue;
+
+}
+
 h4{
     padding: 0;
     margin: 2px;
@@ -16,17 +31,19 @@ h4{
 .frontpageHero{
     display: flex;
     align-content: center;
-    justify-content: center;
-    height: 60vh;
+    padding-top: 50px;
+    height: 80vh;
     color: aliceblue;
+    width: 100vw;
 }
 
 .holderDiv{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    height: 60vh;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .greetingHeader{
@@ -79,10 +96,10 @@ button:active{
 
 .navContainer{
     display: grid;
-    height: 70%;
-    width: 70%;
-    margin-left: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    height: 90%;
+    width: 10%;
+    margin-left: 5px;
+    grid-template-rows: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
 }
@@ -101,8 +118,10 @@ button:active{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 3px solid black;
 }
 
 .icon{
@@ -126,7 +145,7 @@ button:active{
 }
 
 .image{
-    width: 200px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
     margin-left: 2px;
 }
