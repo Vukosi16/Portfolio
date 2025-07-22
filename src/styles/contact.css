@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../assets/backgroundPic.jpg');
+    background-size: cover;           
+    background-position: center;     
+    background-repeat: no-repeat;   
+}
+
+.contactPageContainer{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100vh;
+}
+
+.heroTextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+}
+
+.linkToContactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    gap: 30px;
+}
+
+.contactMethodContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+}
+
+.linkIcons{
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.inLinkIcon{
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
